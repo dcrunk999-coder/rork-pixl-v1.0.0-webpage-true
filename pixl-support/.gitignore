@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+
+# build
+dist
+.wrangler
+.tanstack
+
+# env
+.env
+.dev.vars
+*.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# macOS
+.DS_Store

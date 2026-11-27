@@ -1,0 +1,10 @@
+{
+  "$schema": "https://rork.com/schema/rork.json",
+  "apps": [
+    {
+      "name": "PIXL Support",
+      "path": "pixl-support",
+      "framework": "web"
+    }
+  ]
+}
