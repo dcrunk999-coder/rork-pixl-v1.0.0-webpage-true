@@ -82,7 +82,6 @@ export function LegalDocView({ doc }: { doc: LegalDocument }) {
         {doc.sections.map((section, i) => (
           <section key={i} aria-label={section.heading}>
             <h2 className="mb-4 font-display text-2xl text-[#F5C563]">
-              <span className="mr-3 text-zinc-600">{String(i + 1).padStart(2, "0")}</span>
               {section.heading}
             </h2>
             <LegalBlocks blocks={section.blocks} />
